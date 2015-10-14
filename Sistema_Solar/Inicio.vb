@@ -28,4 +28,7 @@
         Next
     End Sub
 
+    Private Sub ParametrosDBToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ParametrosDBToolStripMenuItem.Click
+
+    End Sub
 End Class

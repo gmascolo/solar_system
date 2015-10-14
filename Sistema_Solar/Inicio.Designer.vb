@@ -31,7 +31,6 @@ Partial Class Inicio
         Me.SateliteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ParametrosDBToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -84,7 +83,7 @@ Partial Class Inicio
         '
         'OpcionesToolStripMenuItem
         '
-        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ParametrosDBToolStripMenuItem, Me.InfoToolStripMenuItem})
+        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ParametrosDBToolStripMenuItem})
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
         Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.OpcionesToolStripMenuItem.Text = "Opciones"
@@ -94,12 +93,6 @@ Partial Class Inicio
         Me.ParametrosDBToolStripMenuItem.Name = "ParametrosDBToolStripMenuItem"
         Me.ParametrosDBToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ParametrosDBToolStripMenuItem.Text = "Parametros DB"
-        '
-        'InfoToolStripMenuItem
-        '
-        Me.InfoToolStripMenuItem.Name = "InfoToolStripMenuItem"
-        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.InfoToolStripMenuItem.Text = "Info"
         '
         'Inicio
         '
@@ -126,5 +119,4 @@ Partial Class Inicio
     Friend WithEvents ParametrosDBToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DatosToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PlanetasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents InfoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

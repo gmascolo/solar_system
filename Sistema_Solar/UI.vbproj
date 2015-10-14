@@ -76,6 +76,12 @@
     <Compile Include="ABM\abm_planeta.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ABM\abm_planeta1.Designer.vb">
+      <DependentUpon>abm_planeta1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ABM\abm_planeta1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Inicio.Designer.vb">
       <DependentUpon>Inicio.vb</DependentUpon>
     </Compile>
